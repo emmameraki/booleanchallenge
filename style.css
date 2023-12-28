@@ -1,0 +1,75 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 80vw;
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+h1 {
+  color:#00dd00;
+  font-size:30px!important;
+
+}
+h2{
+  color: white;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+p {
+ color: white;
+   margin-bottom: 0px;
+   margin-top: 0px;
+}
+
+button{
+  background: white:
+  color: black;
+}
+
+.container {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,.5);
+  padding:100px;
+  width: 70%;
+  border-radius:15px;
+}
+
+.pulsanti {
+  background-color: #00dd00;
+  padding: 10px;
+}
+
+.monopattino{
+  text-align:left;
+}
+
+.yellow-bar{
+  background:#f5b453;
+  height: 32px;
+  width: 40%;
+  border-radius:5px;
+}
+.green-bar{
+  background:#1ec31e;
+  height: 32px;
+  width: 60%;
+  border-radius:5px;
+}
+.red-bar{
+  background:#be4141;
+  height: 32px;
+  width: 20%;
+  border-radius:5px;
+}
